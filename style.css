@@ -1,3 +1,10 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -52,7 +59,7 @@ a {
     color: white;
 }
 .speakers {
-    padding: 60px;
+    padding-top: 60px;
 }
 .speakers h2 {
     font-family: Inter;
@@ -73,21 +80,21 @@ a {
 .speaker-card h6 {
     font-family: Inter;
     font-size: 12px;
-    font-width: 600;
+    font-weight: 600;
     color: #2563EB;
     margin-bottom: -10px;
 }
 .speaker-card h3 {
     font-family: Inter;
     font-size: 20px;
-    font-width: 700;
+    font-weight: 700;
     color: #0d1b2a;
     margin-bottom: -5px;
 }
 .speaker-card p {
     font-family: Inter;
     font-size: 14px;
-    font-width: 400;
+    font-weight: 400;
     color: #575757;
 }
 .speaker-info {
@@ -95,7 +102,8 @@ a {
 }
 .pricing {
     text-align: center;
-    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .pricing-plans {
     display:grid;
@@ -187,4 +195,65 @@ a {
 }
 .footer {
         background: #0D1B2A;
+        padding: 20px;
+}
+
+
+
+
+.contact{
+    padding:80px 20px;
+    background:#f8f8f8;
+}
+
+.contact-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.contact-title h2{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.contact-title p{
+    color:#666;
+}
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.form-group{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+}
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:15px;
+    border:1px solid #ddd;
+    border-radius:6px;
+    outline:none;
+    font-size:16px;
+}
+
+.contact-form textarea{
+    height:160px;
+    resize:none;
+}
+
+.contact-form button{
+    width:180px;
+    padding:15px;
+    border:none;
+    background:#2563eb;
+    color:#fff;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
 }
