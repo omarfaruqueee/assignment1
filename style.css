@@ -8,6 +8,7 @@ ul {
 }
 a {
     text-decoration: none;
+    color: #575757;
 }
 .button {
     background-color: #007bff;
@@ -50,6 +51,9 @@ a {
     font-size: 22px;
     color: white;
 }
+.speakers {
+    padding: 60px;
+}
 .speakers h2 {
     font-family: Inter;
     font-size: 52px;
@@ -91,6 +95,7 @@ a {
 }
 .pricing {
     text-align: center;
+    padding: 60px;
 }
 .pricing-plans {
     display:grid;
@@ -113,7 +118,8 @@ a {
 }
 .card {
     border: 1px solid #f2f2f2;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 30px;
     text-align: left;
 }
 .card h3 {
@@ -133,6 +139,11 @@ a {
 .card ul {
     padding: 0px;
 }
+.card ul li {
+    margin-top: 9px;
+    font-family: Inter;
+    font-size: 14px;
+}
 .price-button {
     background-color: #fff;
     border: 1px solid #000;
@@ -140,11 +151,40 @@ a {
     padding: 10px 50px;
     color: #f82525;
 }
-..price-button a {
-    color: #000
+.card a {
+    color: #000 !important;
 }
 .plan {
     font-family: Inter;
     font-size: 13px;
     color: #888888;
+}
+.active {
+    background: #0D1B2A !important;
+}
+.active ul  {
+    color: #f2f2f2 !important;
+}
+.active h3 {
+    color: #f2f2f2
+}
+.active .plan {
+    color: #93C5FD;
+}
+.fot {
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    align-items: center;
+}
+.fot ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+}
+.fot ul a {
+        color: #f2f2f2
+}
+.footer {
+        background: #0D1B2A;
 }
